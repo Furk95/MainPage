@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: url("natureTrees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainBox{
+    height: 400px;
+    width: 400px;
+    border: 6px;
+    border-color: brown;
+    background-color: turquoise;
+    box-shadow: 0 0 40px black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1{
+    text-align: center;
+    display: block;
+}
+
+.valueInput{
+    
+    padding: 1rem;
+    width: 18rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.register{
+    background-color: blue;
+    box-shadow: 0px 0px 30px black;
+    margin-top: 0;
+    color: turquoise;
+    display: block;
+    
+    
+}
+
+.submit{
+    padding: 1rem;
+    margin: 2rem;
+    margin-left: 9.5rem;
+    margin-bottom: 6rem;
+    text-decoration: none;
+}
+
+.submitClick{
+    text-decoration: none;
+}
+
+.submit:hover{
+background-color: green;
+color: black;
+transition: 1s;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.form_text{
+    margin-bottom: 200px;
+}
+
+.form_click{
+    display: block;
+    margin-bottom: 2rem;
+    text-align: center;
+    }
+
+    p{
+        font-size: 20px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
